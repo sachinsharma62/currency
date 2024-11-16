@@ -1,0 +1,89 @@
+.team-section{
+    text-align: center;
+    background-color: #00204a;
+    color: #ffffff;
+    padding: 90px 0;
+
+    .section-title{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+
+        h2{
+            position: relative;
+            font-weight: bold;
+            margin-bottom: 0;
+
+            span{
+                color: #00bbf0;
+            }
+        }
+    }
+    .team-wrapper{
+        padding: 0 15px;
+
+        .box {
+            padding: 35px 0 0 0;
+            border-radius: 5px;
+            overflow: hidden;
+            -webkit-transition: all .1s;
+            transition: all .1s;
+            margin-top: 45px;
+            background: -webkit-gradient(linear, left top, left bottom, from(#002759), to(#002b64));
+            background: linear-gradient(to bottom, #002759, #002b64);
+
+            .img-box {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+
+                img {
+                    width: 120px;
+                    border-radius: 100%;
+                    border: 5px solid #ffffff;
+                }
+            }
+
+            .detail-box {
+                margin: 25px 0;
+
+                h5 {
+                    color: #00bbf0;
+                    font-weight: 600;
+                    position: relative;
+                }
+            }
+            .profile-box {
+                padding: 10px 45px 20px 45px;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+
+                a {
+                    color: #ffffff;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}
