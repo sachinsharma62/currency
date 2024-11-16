@@ -13,15 +13,15 @@ const Servicedetail = [
         title: 'fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using',
     },
     {
-        id: 1,
+        id: 2,
         icon: icon2,
         alt:'Security Storage' ,
         heading: 'Currency Wallet',
         title: 'fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using',
     },
     {
-        id: 1,
-        icon: icon2,
+        id: 3,
+        icon: icon3,
         alt:'Expert Support' ,
         heading: 'Currency Wallet',
         title: 'fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using',
@@ -54,7 +54,7 @@ const Service = () => {
                                             <p>
                                                 {item.title}
                                             </p>
-                                            <a href="">
+                                            <a href="Read">
                                                 Read More
                                             </a>
                                         </div>
@@ -62,7 +62,7 @@ const Service = () => {
                             </div>
                         ))}
                         <div className="btn-box">
-                            <a href="">
+                            <a href="view">
                                 View All
                             </a>
                         </div> 

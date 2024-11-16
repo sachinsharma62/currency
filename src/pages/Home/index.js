@@ -55,7 +55,7 @@ const Home = () => {
                                                     </h1>
                                                     <p>{item.Caption}</p>
                                                     <div class="btn-box">
-                                                        <a href="#" class="btn1">
+                                                        <a href="read" class="btn1">
                                                             Read More
                                                         </a>
                                                     </div>
