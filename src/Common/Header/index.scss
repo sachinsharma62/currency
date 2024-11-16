@@ -20,3 +20,39 @@
         }
     }
 }
+.custom-toggler {
+    color: #fff;
+    border: none;
+    background: transparent;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-toggler .icon-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .custom-toggler.open .icon-bar {
+    transform: rotate(90deg); /* Rotate the icon when open */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .navbar-toggler-icon {
+    display: none; /* Hide default toggle icon */
+  }
+  .navbar-toggler:focus{
+    box-shadow: none;
+  }

@@ -1,4 +1,4 @@
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row ,Col} from 'react-bootstrap';
 import './index.scss'
 import icon1 from '../../assets/images/s1.png'
 import icon2 from '../../assets/images/s2.png'
@@ -42,8 +42,8 @@ const Service = () => {
                             </p>
                         </div>
                         {Servicedetail.map((item , index) => (
-                            <div class="col-md-4 ">
-                                    <div className="box " key={index}>
+                            <Col md={4}  key={index}>
+                                    <div className="box ">
                                         <div className="img-box" >
                                             <img src={item.icon} alt={item.alt} />
                                         </div>
@@ -59,7 +59,7 @@ const Service = () => {
                                             </a>
                                         </div>
                                     </div>
-                            </div>
+                            </ Col>
                         ))}
                         <div className="btn-box">
                             <a href="view">

@@ -4,6 +4,7 @@ import heroBg from '../../assets/images/hero-bg.png'
 import carouselimg1 from '../../assets/images/slider-img.png'
 import Service from '../Service';
 import About from '../About';
+import WhyUs from '../WhyUs';
 
 
 const carouselItems = [
@@ -35,7 +36,7 @@ const Home = () => {
         <>
             <div className='hero-bg-wrapper'>
                 <div className='hero-bg'>
-                    <div classname="bg_img_box">
+                    <div className="bg_img_box">
                         <img src={heroBg} alt={heroBg} />
                     </div>
                 </div>
@@ -54,8 +55,8 @@ const Home = () => {
                                                         Currency
                                                     </h1>
                                                     <p>{item.Caption}</p>
-                                                    <div class="btn-box">
-                                                        <a href="read" class="btn1">
+                                                    <div className="btn-box">
+                                                        <a href="read" className="btn1">
                                                             Read More
                                                         </a>
                                                     </div>
@@ -64,7 +65,7 @@ const Home = () => {
                                         </div>  
                                     </Col>
                                     <Col md={6}>
-                                        <div class="img-box d-flex align-item-center ">
+                                        <div className="img-box d-flex align-item-center ">
                                             <img src={item.image} alt={item.alt}  style={{width: '100%'}}/>
                                         </div>
                                     </Col>
@@ -77,6 +78,7 @@ const Home = () => {
             </div>
             <Service />
             <About />
+            <WhyUs />
         </>
     )
 };
