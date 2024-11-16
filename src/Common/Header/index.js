@@ -19,11 +19,11 @@ const Header = () => {
                     />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#/">Home</Nav.Link>
-                        <Nav.Link href="#/about">About</Nav.Link>
-                        <Nav.Link href="#/service">Service</Nav.Link>
-                        <Nav.Link href="#/whyus">Why Us</Nav.Link>
-                        <Nav.Link href="#/team">Team</Nav.Link>
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/about">About</Nav.Link>
+                        <Nav.Link href="/service">Service</Nav.Link>
+                        <Nav.Link href="/whyus">Why Us</Nav.Link>
+                        <Nav.Link href="/team">Team</Nav.Link>
                         <Nav.Link href="#"> <FaUser /> Login</Nav.Link>
                     </Nav>
                     </Navbar.Collapse>

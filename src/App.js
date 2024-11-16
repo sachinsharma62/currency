@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Common/Header';
 import About from './pages/About';
 import Home from './pages/Home';
-import { HashRouter as  Router, Route, Routes,} from "react-router-dom";
+import { BrowserRouter as  Router, Route, Routes,} from "react-router-dom";
 import WhyUs from './pages/WhyUs';
 import Team from './pages/Team';
 import Service from './pages/Service';
