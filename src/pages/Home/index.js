@@ -5,6 +5,7 @@ import carouselimg1 from '../../assets/images/slider-img.png'
 import Service from '../Service';
 import About from '../About';
 import WhyUs from '../WhyUs';
+import Testimonial from '../Testimonial';
 
 
 const carouselItems = [
@@ -79,6 +80,7 @@ const Home = () => {
             <Service />
             <About />
             <WhyUs />
+            <Testimonial />
         </>
     )
 };
