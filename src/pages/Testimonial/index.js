@@ -26,7 +26,7 @@ const Testimonial = () => {
           },
         ],
       };
-    
+      
       const testimonials = [
         {
           id: 1,
@@ -95,6 +95,7 @@ const Testimonial = () => {
               </div>
             ))}
           </Slider>
+          
         </div>
     )
 };
