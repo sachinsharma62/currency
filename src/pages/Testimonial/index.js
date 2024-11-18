@@ -67,39 +67,42 @@ const Testimonial = () => {
       ];
     
       return (
-        <div className="testimonial-slider-container container">
-            <div className='section-title'>
-                <h2>
-                    What says our <span>Customers</span>
-                </h2>
-                <p>
-                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-                </p>
-            </div>
-          <Slider {...settings}>
-            {testimonials.map((testimonial) => (
-              <div key={testimonial.id} className="testimonial-card">
-                {/* Profile Image */}
-                <div className="testimonial-image">
-                  <img src={testimonial.image} alt={testimonial.name} />
-                </div>
-                {/* Content */}
-                <div className="testimonial-content">
-                    <div className='d-flex justify-content-between'>
-                        <div>
-                            <h6>{testimonial.name}</h6>
-                            <p className="testimonial-role">{testimonial.role}</p>
-                        </div>
-                        <FaQuoteRight />
+        <div className="testimonial-slider-container ">
+            <Container>
+                <Row>                        
+                    <div className='section-title'>
+                        <h2>
+                            What says our <span>Customers</span>
+                        </h2>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                        </p>
                     </div>
-                  
-                  <p className="testimonial-feedback">{testimonial.feedback}</p>
-                </div>
-                
-              </div>
-            ))}
-          </Slider>
-          
+                    <Slider {...settings}>
+                        {testimonials.map((testimonial) => (
+                        <div key={testimonial.id} className="testimonial-card">
+                            {/* Profile Image */}
+                            <div className="testimonial-image">
+                            <img src={testimonial.image} alt={testimonial.name} />
+                            </div>
+                            {/* Content */}
+                            <div className="testimonial-content">
+                                <div className='d-flex justify-content-between'>
+                                    <div>
+                                        <h6>{testimonial.name}</h6>
+                                        <p className="testimonial-role">{testimonial.role}</p>
+                                    </div>
+                                    <FaQuoteRight />
+                                </div>
+                            
+                            <p className="testimonial-feedback">{testimonial.feedback}</p>
+                            </div>
+                            
+                        </div>
+                        ))}
+                    </Slider>
+                </Row>
+            </Container>
         </div>
     )
 };
