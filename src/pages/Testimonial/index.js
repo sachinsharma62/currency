@@ -5,6 +5,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Container, Row } from 'react-bootstrap';
 import { FaQuoteRight } from 'react-icons/fa';
+import customer1 from '../../assets/images/client1.jpg'
+import customer2 from '../../assets/images/client2.jpg'
+import customer3 from '../../assets/images/Client3.jpg'
+import customer4 from '../../assets/images/Client4.jpg'
 
 
 const Testimonial = () => {
@@ -32,7 +36,7 @@ const Testimonial = () => {
           id: 1,
           name: "LusDen",
           role: "magna aliqua. Ut",
-          image: "https://randomuser.me/api/portraits/men/32.jpg",
+          image: customer1,
           feedback:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
         },
@@ -40,7 +44,7 @@ const Testimonial = () => {
           id: 2,
           name: "Zen Court",
           role: "magna aliqua. Ut",
-          image: "https://randomuser.me/api/portraits/women/44.jpg",
+          image:customer2,
           feedback:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
         },
@@ -48,7 +52,7 @@ const Testimonial = () => {
           id: 3,
           name: "John Doe",
           role: "magna aliqua. Ut",
-          image: "https://randomuser.me/api/portraits/men/78.jpg",
+          image: customer3,
           feedback:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
         },
@@ -56,7 +60,7 @@ const Testimonial = () => {
           id: 4,
           name: "Jane Smith",
           role: "magna aliqua. Ut",
-          image: "https://randomuser.me/api/portraits/women/68.jpg",
+          image: customer4,
           feedback:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.",
         },
@@ -83,7 +87,7 @@ const Testimonial = () => {
                 <div className="testimonial-content">
                     <div className='d-flex justify-content-between'>
                         <div>
-                            <h3>{testimonial.name}</h3>
+                            <h6>{testimonial.name}</h6>
                             <p className="testimonial-role">{testimonial.role}</p>
                         </div>
                         <FaQuoteRight />
