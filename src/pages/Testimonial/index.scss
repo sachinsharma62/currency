@@ -123,13 +123,19 @@ padding: 40px 0 90px 0;
   }
 
   .slick-prev {
-    left: 44.5%;
+    left: calc(45% - 20px);
     top: auto;
+    @media screen and (max-width:991px) {
+      left: calc(43% - 20px);
+    }
   }
 
   .slick-next {
-    right: 44.5%;
+    right: calc(45% - 20px);
     top: auto;
+    @media screen and (max-width:991px) {
+      right: calc(43% - 20px);
+    }
   }
 
   /* Dots */
